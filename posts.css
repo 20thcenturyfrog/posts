@@ -1,0 +1,29 @@
+body {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.post {
+  margin-bottom: 50px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: rgb(233, 233, 233);
+  filter: drop-shadow(9px 9px 9px rgba(0, 0, 0, 0.2));
+}
+
+.post:first-of-type {
+  margin-top: 50px;
+}
+
+.title,
+.body {
+  font-family: "EB Garamond", serif;
+}
+
+.title {
+  font-size: 40px;
+}
+
+.body {
+  font-size: 25px;
+}
