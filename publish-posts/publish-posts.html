@@ -5,14 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Опубликовать пост</title>
+    <link rel="stylesheet" href="publish-posts.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>Новый пост</h1>
-    <form method="post">
+    <h1 class="heading">Новый пост</h1>
+    <form method="post" class="form">
       <input
         type="text"
         name="title"
         id="title"
+        class="input"
         placeholder="Заголовок поста"
         required
       />
@@ -20,10 +28,11 @@
         type="text"
         name="body"
         id="body"
+        class="input"
         placeholder="Текст поста"
         required
       />
-      <button type="submit" id="button">Опубликовать</button>
+      <button type="submit" id="button" class="button">Опубликовать</button>
     </form>
     <div class="container" id="container"></div>
     <script src="publish-posts.js"></script>

@@ -1,6 +1,7 @@
 body {
   width: 50%;
   margin: 0 auto;
+  font-family: "EB Garamond", serif;
 }
 
 .post {
@@ -13,11 +14,6 @@ body {
 
 .post:first-of-type {
   margin-top: 50px;
-}
-
-.title,
-.body {
-  font-family: "EB Garamond", serif;
 }
 
 .title {
