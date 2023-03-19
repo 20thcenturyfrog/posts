@@ -13,9 +13,7 @@ async function fetchPosts(url) {
   try {
     const response = await fetch(url);
     const postArray = await response.json();
-    for (const item of postArray) {
-      createPost(item);
-    }
+    postArray.forEach(createPost);
   } catch (error) {
     console.log(error.message);
   }
